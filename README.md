@@ -21,7 +21,6 @@ Este projeto foi desenvolvido com foco em **boas práticas de engenharia de dado
 
 O objetivo é demonstrar minha capacidade de **estruturar projetos de dados de ponta a ponta**, unindo visão analítica, organização técnica e entrega de valor por meio de visualizações claras e interativas.  
 
-A solução reflete minha transição de carreira para a área de dados, aliando experiência prévia em contexto de negócio com fundamentos sólidos em **Python, visualização de dados e automação de pipelines simples**.
 
 ---
 
@@ -42,18 +41,18 @@ Tecnologias e ferramentas usadas no projeto:
 
 Aqui está um **organograma** do projeto, representando a estrutura das pastas e arquivos em **Markdown**:
 
-```mermaid
-graph TB
-    A[Dashboard] --> B[app]
-    A[Dashboard] --> C[data]
-    A[Dashboard] --> D[.gitignore]
-    A[Dashboard] --> E[README.md]
-    A[Dashboard] --> F[requirements.txt]
+graph TD
+    A[dashboard-streamlit] --> B[app]
+    A --> C[data]
+    A --> D[.gitignore]
+    A --> E[README.md]
+    A --> F[requirements.txt]
 
     B --> B1[dashboard.py]
     B --> B2[utils.py]
+
     C --> C1[dados.csv]
-´´´ 
+
 
 ▶️ Como Rodar o Projeto Localmente
 
