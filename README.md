@@ -39,20 +39,19 @@ Tecnologias e ferramentas usadas no projeto:
 
 ## 🗂️ **Estrutura do Projeto**
 
-Aqui está um **organograma** do projeto, representando a estrutura das pastas e arquivos em **Markdown**:
-
-```mermaid
-graph TD
-    A[dashboard-streamlit] --> B[app]
-    A --> C[data]
-    A --> D[.gitignore]
-    A --> E[README.md]
-    A --> F[requirements.txt]
-
-    B --> B1[dashboard.py]
-    B --> B2[utils.py]
-
-    C --> C1[dados.csv]
+```text
+dashboard-streamlit/
+│
+├── app/
+│   ├── dashboard.py      # Arquivo principal da aplicação Streamlit
+│   └── utils.py          # Funções auxiliares (ex: carregamento de dados)
+│
+├── data/
+│   └── dados.csv         # Base de dados utilizada no dashboard
+│
+├── .gitignore            # Arquivos ignorados pelo Git
+├── requirements.txt      # Dependências do projeto
+└── README.md             # Documentação do projeto
 
 
 ## ▶️ Como Rodar o Projeto Localmente
