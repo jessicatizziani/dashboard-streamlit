@@ -10,7 +10,7 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto é um **dashboard interativo** desenvolvido com **Streamlit**, voltado para **visualização dinâmica de dados** a partir de um arquivo CSV.  
+Este projeto é um **dashboard interativo** desenvolvido com **Streamlit**, voltado para **visualização dinâmica de dados** a partir de um arquivo CSV.
 
 O objetivo principal é permitir que usuários explorem dados de forma intuitiva, com **atualizações automáticas** sempre que a base de dados for modificada.
 
@@ -28,14 +28,12 @@ Ele demonstra minha capacidade de **estruturar projetos de dados de ponta a pont
 
 ## 🛠️ Tecnologias Utilizadas
 
-Tecnologias e ferramentas aplicadas no projeto:
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) **Python 3.11**  
-![Streamlit](https://img.shields.io/badge/Streamlit-1.0-blue?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit**  
-![Pandas](https://img.shields.io/badge/Pandas-1.0-blue?style=for-the-badge&logo=pandas&logoColor=white) **Pandas**  
-![Plotly](https://img.shields.io/badge/Plotly-4.0-blue?style=for-the-badge&logo=plotly&logoColor=white) **Plotly (gráficos interativos)**  
-![Git](https://img.shields.io/badge/Git-2.0-blue?style=for-the-badge&logo=git&logoColor=white) **Git & GitHub**  
-![Streamlit Cloud](https://img.shields.io/badge/Streamlit_Cloud-green?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit Cloud**
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.0-blue?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1.0-blue?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-4.0-blue?style=for-the-badge&logo=plotly&logoColor=white)
+![Git](https://img.shields.io/badge/Git-2.0-blue?style=for-the-badge&logo=git&logoColor=white)
+![Streamlit_Cloud](https://img.shields.io/badge/Streamlit_Cloud-green?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ---
 
@@ -54,55 +52,77 @@ dashboard-streamlit/
 ├── .gitignore            # Arquivos ignorados pelo Git
 ├── requirements.txt      # Dependências do projeto
 └── README.md             # Documentação do projeto
-▶️ Como Rodar o Projeto Localmente
-1️⃣ Clone o repositório
-bash
-Copiar código
+```
+
+---
+
+## ▶️ Como Rodar o Projeto Localmente
+
+### 1️⃣ Clone o repositório
+
+```bash
 git clone https://github.com/jessicatizziani/dashboard-streamlit.git
 cd dashboard-streamlit
-2️⃣ Crie e ative o ambiente virtual
-bash
-Copiar código
+```
+
+### 2️⃣ Crie e ative o ambiente virtual
+
+```bash
 python -m venv venv
-Windows:
+```
 
-bash
-Copiar código
+**Windows**
+
+```bash
 venv\Scripts\activate
-Linux / Mac:
+```
 
-bash
-Copiar código
+**Linux / Mac**
+
+```bash
 source venv/bin/activate
-3️⃣ Instale as dependências
-bash
-Copiar código
+```
+
+### 3️⃣ Instale as dependências
+
+```bash
 pip install -r requirements.txt
-4️⃣ Execute o dashboard
-bash
-Copiar código
+```
+
+### 4️⃣ Execute o dashboard
+
+```bash
 streamlit run app/dashboard.py
-A aplicação estará disponível em:
-👉 http://localhost:8501
+```
 
-🔄 Atualização dos Dados
-Os dados podem ser atualizados diretamente no arquivo CSV localizado na pasta data/.
+A aplicação estará disponível em:  
+**http://localhost:8501**
 
-Após realizar alterações, execute:
+---
 
-bash
-Copiar código
+## 🔄 Atualização dos Dados
+
+Os dados podem ser atualizados diretamente no arquivo CSV localizado na pasta `data/`.
+
+```bash
 git add data/
 git commit -m "Atualiza dados do dashboard"
 git push
-O Streamlit Cloud realizará o redeploy automático da aplicação.
+```
 
-🌐 Aplicação Online
-👉 Link do Dashboard:
-https://dashboarddadosficticios.streamlit.app/
+O **Streamlit Cloud** realiza o **redeploy automático**.
 
-👩‍💻 Autora
-Jessica Tizziani
-Ciência de Dados | Engenharia de Dados | Gerenciamento de Projetos
+---
 
-Projeto desenvolvido para fins de aprendizado, portfólio profissional e compartilhamento de conhecimento em dados.
+## 🌐 Aplicação Online
+
+👉 https://dashboarddadosficticios.streamlit.app/
+
+---
+
+## 👩‍💻 Autora
+
+**Jessica Tizziani**  
+Ciência de Dados | Engenharia de Dados | Gerenciamento de Projetos  
+
+Projeto desenvolvido para fins de **aprendizado**, **portfólio profissional** e **compartilhamento de conhecimento em dados**.
