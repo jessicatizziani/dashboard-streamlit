@@ -24,3 +24,8 @@ st.subheader("Valores por Categoria")
 grafico = df.groupby("categoria")["valor"].sum().reset_index()
 
 st.bar_chart(grafico, x="categoria", y="valor")
+
+
+@st.cache_data(ttl=60)
+def carregar_dados():
+    return pd.read_csv("data/seu_arquivo.csv")
