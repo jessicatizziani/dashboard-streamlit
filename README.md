@@ -17,14 +17,14 @@ A aplicação está organizada de forma a utilizar **boas práticas** de desenvo
 
 ## 🛠️ **Tecnologias Utilizadas**
 
-Tecnologias e ferramentas usadas no projeto, com seus respectivos ícones:
+Tecnologias e ferramentas usadas no projeto:
 
-- ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) **Python 3.11**
-- ![Streamlit](https://img.shields.io/badge/Streamlit-1.0-blue?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit**
-- ![Pandas](https://img.shields.io/badge/Pandas-1.0-blue?style=for-the-badge&logo=pandas&logoColor=white) **Pandas**
-- ![Plotly](https://img.shields.io/badge/Plotly-4.0-blue?style=for-the-badge&logo=plotly&logoColor=white) **Plotly (para gráficos interativos)**
-- ![Git](https://img.shields.io/badge/Git-2.0-blue?style=for-the-badge&logo=git&logoColor=white) **Git & GitHub**
-- ![Streamlit Cloud](https://img.shields.io/badge/Streamlit_Cloud-green?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit Cloud**
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white) **Python 3.11**
+![Streamlit](https://img.shields.io/badge/Streamlit-1.0-blue?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit**
+![Pandas](https://img.shields.io/badge/Pandas-1.0-blue?style=for-the-badge&logo=pandas&logoColor=white) **Pandas**
+![Plotly](https://img.shields.io/badge/Plotly-4.0-blue?style=for-the-badge&logo=plotly&logoColor=white) **Plotly (para gráficos interativos)**
+![Git](https://img.shields.io/badge/Git-2.0-blue?style=for-the-badge&logo=git&logoColor=white) **Git & GitHub**
+![Streamlit Cloud](https://img.shields.io/badge/Streamlit_Cloud-green?style=for-the-badge&logo=streamlit&logoColor=white) **Streamlit Cloud**
 
 ---
 
@@ -43,6 +43,7 @@ graph TB
     B --> B1[dashboard.py]
     B --> B2[utils.py]
     C --> C1[dados.csv]
+´´´ 
 
 ▶️ Como Rodar o Projeto Localmente
 
