@@ -1,5 +1,12 @@
 # 📊 **Dashboard Interativo com Streamlit**
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-red?style=for-the-badge&logo=streamlit)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/jessicatizziani/dashboard-streamlit?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/jessicatizziani/dashboard-streamlit?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+
 ## 🚀 Sobre o projeto
 
 Este projeto é um **dashboard interativo** criado com **Streamlit**, desenvolvido para **visualização dinâmica de dados** a partir de um arquivo CSV. O objetivo principal é permitir que usuários visualizem e interajam com dados em tempo real, com **atualizações automáticas** sempre que a planilha for alterada.
