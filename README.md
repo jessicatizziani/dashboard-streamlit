@@ -15,6 +15,16 @@ A aplicação está organizada de forma a utilizar **boas práticas** de desenvo
 
 ---
 
+## 🎯 Visão Técnica e Profissional
+
+Este projeto foi desenvolvido com foco em **boas práticas de engenharia de dados e analytics**, contemplando desde a ingestão de dados em formato tabular (CSV), organização modular do código, versionamento com Git/GitHub, até o deploy automatizado em ambiente cloud.  
+
+O objetivo é demonstrar minha capacidade de **estruturar projetos de dados de ponta a ponta**, unindo visão analítica, organização técnica e entrega de valor por meio de visualizações claras e interativas.  
+
+A solução reflete minha transição de carreira para a área de dados, aliando experiência prévia em contexto de negócio com fundamentos sólidos em **Python, visualização de dados e automação de pipelines simples**.
+
+---
+
 ## 🛠️ **Tecnologias Utilizadas**
 
 Tecnologias e ferramentas usadas no projeto:
