@@ -52,7 +52,7 @@ dashboard-streamlit/
 ├── .gitignore            # Arquivos ignorados pelo Git
 ├── requirements.txt      # Dependências do projeto
 └── README.md             # Documentação do projeto
-
+```
 
 ## ▶️ Como Rodar o Projeto Localmente
 
@@ -61,32 +61,40 @@ dashboard-streamlit/
 ```
 git clone https://github.com/jessicatizziani/dashboard-streamlit.git
 ```
+
+```
 cd dashboard-streamlit
+```
 
 2️⃣ Crie e ative o ambiente virtual
 
 ```
 python -m venv venv
+```
 
 # Para Windows
 
 ```
 venv\Scripts\activate
+```
 
 # Para Linux / Mac
 
 ```
 source venv/bin/activate
+```
 
 3️⃣ Instale as dependências
 
 ```
 pip install -r requirements.txt
+```
 
 4️⃣ Execute o dashboard
 
 ```
 streamlit run app/dashboard.py
+```
 
 A aplicação estará disponível em http://localhost:8501.
 
