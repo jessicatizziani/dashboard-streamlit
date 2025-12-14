@@ -59,48 +59,57 @@ graph TD
 
 1️⃣ Clone o repositório
 
+```
 git clone https://github.com/jessicatizziani/dashboard-streamlit.git
+```
 cd dashboard-streamlit
 
 2️⃣ Crie e ative o ambiente virtual
 
+```
 python -m venv venv
 
 # Para Windows
+
+```
 venv\Scripts\activate
 
 # Para Linux / Mac
+
+```
 source venv/bin/activate
 
 3️⃣ Instale as dependências
-bash
 
+```
 pip install -r requirements.txt
 
 4️⃣ Execute o dashboard
 
+```
 streamlit run app/dashboard.py
 
 A aplicação estará disponível em http://localhost:8501.
 
 🔄 Atualização dos Dados
+
 Os dados podem ser atualizados diretamente no arquivo CSV localizado na pasta data/.
 
 Após atualizar o arquivo, execute:
 
-bash
-Copiar código
+```
 git add data/
 git commit -m "Atualiza dados do dashboard"
 git push
+
 O Streamlit Cloud fará o redeploy automático.
 
 🌐 Aplicação Online
 👉 Link do Dashboard:
-(adicione o link gerado pelo Streamlit Cloud após o deploy)
+(https://dashboarddadosficticios.streamlit.app/)
 
 👩‍💻 Autora
 Jessica Tizziani
-Analista de Custos | Ciência de Dados | Engenharia de Dados
+Ciência de Dados | Engenharia de Dados | Gerenciamento de Projetos
 
 Projeto desenvolvido para fins de aprendizado, portfólio e compartilhamento de conhecimento em dados.
