@@ -41,6 +41,7 @@ Tecnologias e ferramentas usadas no projeto:
 
 Aqui está um **organograma** do projeto, representando a estrutura das pastas e arquivos em **Markdown**:
 
+```mermaid
 graph TD
     A[dashboard-streamlit] --> B[app]
     A --> C[data]
@@ -54,7 +55,7 @@ graph TD
     C --> C1[dados.csv]
 
 
-▶️ Como Rodar o Projeto Localmente
+## ▶️ Como Rodar o Projeto Localmente
 
 1️⃣ Clone o repositório
 
