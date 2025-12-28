@@ -2,17 +2,17 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from app.utils import carregar_dados
+from utils import carregar_dados
 
 st.set_page_config(
     page_title="Dashboard Financeiro",
     layout="wide"
 )
 
-st.title("📊 Dashboard Atualizado por CSV")
+st.title("📊 Dashboard Financeiro")
 
 # Sidebar
-st.sidebar.title("Configurações")
+st.sidebar.header("Configurações")
 if st.sidebar.button("🔄 Atualizar dados"):
     st.cache_data.clear()
 
@@ -24,29 +24,27 @@ st.dataframe(df)
 
 # Gráfico por categoria
 st.subheader("Valores por Categoria")
-grafico = df.groupby("categoria")["valor"].sum().reset_index()
-st.bar_chart(grafico, x="categoria", y="valor")
-
-# =========================
-# GRÁFICO MENSAL
-# =========================
-df["data"] = pd.to_datetime(df["data"])
-
-df_mensal = (
-    df
-    .groupby(pd.Grouper(key="data", freq="M"))["valor"]
-    .sum()
-    .reset_index()
+grafico_categoria = (
+    df.groupby("categoria", as_index=False)["valor"].sum()
 )
 
-df_mensal.columns = ["mes", "valor_total"]
+st.bar_chart(grafico_categoria, x="categoria", y="valor")
+
+# Gráfico mensal
+df["data"] = pd.to_datetime(df["data"])
+df["mes"] = df["data"].dt.to_period("M").astype(str)
+
+df_mensal = (
+    df.groupby("mes", as_index=False)["valor"].sum()
+    .rename(columns={"valor": "valor_total"})
+)
 
 fig = px.line(
     df_mensal,
     x="mes",
     y="valor_total",
     markers=True,
-    title="Evolução Mensal dos Gastos - 2025"
+    title="Evolução Mensal dos Gastos"
 )
 
 st.plotly_chart(fig, use_container_width=True)

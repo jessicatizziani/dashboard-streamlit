@@ -1,7 +1,6 @@
 import pandas as pd
+import streamlit as st
 
-def carregar_dados(caminho="data/dados.csv"):
-    df = pd.read_csv(caminho)
-    return df
-
-
+@st.cache_data(ttl=60)
+def carregar_dados():
+    return pd.read_csv("data/dados.csv")
